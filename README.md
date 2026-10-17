@@ -13,4 +13,4 @@ This is a repo for completing Activity 3 for SAD
 7. Made modification\update on remote repository on GitHub and pulled it on my local machine using `git pull`.
 
 ### Observations:
-During the final step, after modifying the repository directly on the GitHub website and attempting to synchronize my local repository using the `git pull` command, I observed a **merge conflict** on my local repository. This happened because modifications were made to the same file both locally and remotely before syncing.
+During the final step, after modifying the repository directly on the GitHub website and attempting to synchronize my local repository using the `git pull` command, I observed a **merge conflict** on my local repository. This happened because modifications were made to the same file both locally and remotely before syncing. This locked me in a state (main-MERGING), I used `git merge --abort` to cancel the merge.
